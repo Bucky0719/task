@@ -1,0 +1,5 @@
+services:
+  php-image:
+    build: .
+    ports:
+      - "80:80"
