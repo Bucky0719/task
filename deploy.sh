@@ -1,7 +1,5 @@
 #!/bin/bash
 
-docker login -u bucky0838 -p dckr_pat_79C2h7PDN21tTnkWp-4-xSNlHIg
-
 if [[ $GIT_BRANCH == "origin/main" ]]; then
     chmod +x build.sh
     ./build.sh
