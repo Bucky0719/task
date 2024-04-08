@@ -1,4 +1,4 @@
 FROM php:7.0-apache
-WORKDIR /docker-php-helloworld
+WORKDIR /task
 COPY src/ /var/www/html
 EXPOSE 80
